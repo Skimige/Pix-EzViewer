@@ -56,7 +56,7 @@ android {
     flavorDimensions "version"
     sourceSets {
         main {
-            manifest.srcFile "true".equals(ISGOOGLEPLAY) ? 'src/main/AndroidManifest.xml' : 'src/main/bugly/AndroidManifest.xml'
+            manifest.srcFile "true".equals(ISGOOGLEPLAY) ? 'src/main/AndroidManifest.xml' : 'src/main/AndroidManifest.xml'
         }
     }
 
