@@ -243,8 +243,7 @@ class SettingFragment : PreferenceFragmentCompat() {
                     } catch (e: Exception) {
                         Toasty.info(PxEZApp.instance, "no browser found", Toast.LENGTH_SHORT).show()
                     }
-                } else
-                    Beta.checkUpgrade()
+                }
             }
             "storepath1" -> {
 //                startActivityForResult(Intent(activity, PathProviderActivity::class.java), 887)
