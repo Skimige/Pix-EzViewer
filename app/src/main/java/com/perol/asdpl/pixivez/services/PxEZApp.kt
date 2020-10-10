@@ -45,7 +45,6 @@ import com.perol.asdpl.pixivez.BuildConfig
 import com.perol.asdpl.pixivez.R
 import com.perol.asdpl.pixivez.objects.CrashHandler
 import com.perol.asdpl.pixivez.objects.Toasty
-import com.tencent.bugly.Bugly
 import java.io.File
 
 
@@ -128,8 +127,6 @@ class PxEZApp : Application() {
         } else {
             resources.configuration.locale.language
         }
-        if (!BuildConfig.ISGOOGLEPLAY)
-            Bugly.init(this, "1a2d5c746f", BuildConfig.DEBUG)
         registerActivityLifecycleCallbacks(object : ActivityLifecycleCallbacks {
             override fun onActivityCreated(activity: Activity, savedInstanceState: Bundle?) {
                 ActivityCollector.collect(activity)

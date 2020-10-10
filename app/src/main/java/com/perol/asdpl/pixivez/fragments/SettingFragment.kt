@@ -52,7 +52,6 @@ import com.perol.asdpl.pixivez.R
 import com.perol.asdpl.pixivez.databinding.DialogMeBinding
 import com.perol.asdpl.pixivez.objects.Toasty
 import com.perol.asdpl.pixivez.services.PxEZApp
-import com.tencent.bugly.beta.Beta
 import java.io.File
 import java.io.FilenameFilter
 
